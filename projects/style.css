@@ -51,5 +51,9 @@ body {
   scale: 102%;
   transition: 0.3s;
 }
-
-
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
