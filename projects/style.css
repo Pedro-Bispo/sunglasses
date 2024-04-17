@@ -4,11 +4,11 @@
     font-weight: 900;
     margin: 0px;
     padding: 0px;
-  color: black;
+    color: white;
 }
 body{
   background-color: #1b1b1b;
-    padding: 0;
+  padding: 0;
 }
  .backimg {
   position: fixed;
@@ -25,6 +25,3 @@ body{
   line-height: 70px;
   padding: 20px;
 }
-
-
-
