@@ -1,3 +1,36 @@
+/* Estilos para telas pequenas */
+@media only screen and (max-width: 600px) {
+    /* Ajuste o tamanho da imagem */
+    .image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Ajuste o tamanho do texto */
+    h2 {
+        font-size: 1.5em;
+    }
+}
+
+/* Estilos para telas médias */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Ajuste o layout usando flexbox ou grid */
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Outros ajustes conforme necessário */
+}
+
+/* Estilos para telas grandes */
+@media only screen and (min-width: 1025px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 *{
     margin: 0;
     padding: 0;
